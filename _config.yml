@@ -1,0 +1,25 @@
+title:            winocm blag.
+description:      I finally started one, that I hope will last.
+url:              # Site url.
+signoff:          # Your name.
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          /
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/winocm
+    external:     true
+  - name:         Twitter
+    url:          http://twitter.com/winocm
+    external:     true
+pygments:         true
+permalink:        pretty
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
