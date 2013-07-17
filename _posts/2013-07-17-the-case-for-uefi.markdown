@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The case for an EFI based bootloader on ARM"
-date:   2013-07-16 20:07:00
+date:   2013-07-17 11:07:00
 categories: xnu projects
 ---
 
@@ -138,7 +138,9 @@ can be awfully over the top at times.
 
 This is overly complex, but still, not as complex as having to do it all
 from a core loader. People may ask, "why not just integrate everything into
-u-boot"? The answer to this is to be board agnostic.
+u-boot"? The answer to this is to be board agnostic. If I can just place my
+`boot.efi` file on a SD card for one board and I don't have to recompile the
+firmware entirely, it makes my day go better.
 
 # Loading Other Files
 
