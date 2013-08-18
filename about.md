@@ -24,3 +24,4 @@ I have experience with the following languages:
 I can be reached on IRC for the most part. Feel free to contact me.
 
 * `winocm` on Freenode.
+* `winocm AT icloud DOT com` works too.
