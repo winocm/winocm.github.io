@@ -124,7 +124,7 @@ Conclusion
 ==========
 
 Sure, you can run unsupported iBoot versions on various board configurations, and sure you can run the kernel on unsupported
-hardware, but is it all worth it? Lots of things will have broken in the process and you feel very happy after debugging
+hardware, but is it all worth it? Lots of things will have broken in the process and you will feel very happy after debugging
 iBoot for hours on end wondering "why does it hang here" or debugging the kernel for hours on end wondering "why does it
 panic here?".
 
