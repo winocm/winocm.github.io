@@ -109,7 +109,7 @@ proprietary drivers for platform management. The purpose of these drivers are to
 hardware to the software in a common way. The actual thing that bridges hardware and user-mode software is called IOKit.
 You can search Apple's developer documentation for more information on IOKit and how to use it.
 
-Now, the reason why you can't just copy over the keynel from another device and expect it to work is that there are 
+Now, the reason why you can't just copy over the kernel from another device and expect it to work is that there are 
 very minute hardware differences between hardware variants. Much of the same can also be said for iBoot. One big example
 is how Wi-Fi is implemented slightly differently in the N92 and N90 kernels. Sure you can use the N92 kernel on an N90, but
 tons of things, such as Wi-Fi, will have broken.
