@@ -18,6 +18,14 @@ Of course, the actual UI stuff such as `UIKit` and `SpringBoard` is still there 
 This post is mainly concerned with low-level components of iOS, so be warned. This article is also relatively technical,
 but that goes without saying.
 
+What this post is not
+=====================
+
+I'm not trying to be discouraging in any form or fashion, but all of the problems presented are very real issues.
+You *will* encounter these issues at some point if you use the iOS 7 bootchain or whatever on an unsupported 
+board configuration. That isn't to say this can't be done; if you can do it, then go do it! It'll just be
+annoying. 
+
 Fun with iBoot
 ==============
 
