@@ -20,7 +20,7 @@ I'd at least recommend reading the following technical resources:
 
 Comprehending the ARM/ARM64 architecture (at least the Programmer's Model and the system control registers)
 helps you to understand how the processor works, from a systems programmer point of view. You should know
-how various concepts of thw processor relate with each other.
+how various concepts of the processor relate with each other.
 
 Older processors have their own quirks, you can still find their stuff on the ARM developer website. 
 (such as: ARM926EJ-S, ARM1176JF-S, etc).
