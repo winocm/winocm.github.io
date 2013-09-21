@@ -68,7 +68,7 @@ context. ;)
 
 # Jailbreaking
 
-The (iPhone Wiki)[http://theiphonewiki.com] is a decently good resource, but only go to it when you can't
+[The iPhone Wiki](http://theiphonewiki.com) is a decently good resource, but only go to it when you can't
 find anything more technical related to the subject. That's not to say it's not a good resource, it really
 is a brilliant thing.
 
@@ -79,8 +79,6 @@ might notice something no one else has really seen before.
 # Don't be overentitled.
 
 This is important, remain at least, ethical and humble about what you do. It really helps. (Though, not
-everyone seems to care about that.).
-
-Realize what the community is, and how it should be a community.
+everyone seems to care about that.). Realize what the community is, and how it should be a community.
 
 We need more smart people, and less script kiddies. Will this ever happen?
