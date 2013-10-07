@@ -41,7 +41,7 @@ should at least have Keys/IVs for each Image3 file along with a relative path. T
 otherwise run opensn0w as root. The `-v` option is used to display additional debug output.
 
 {% highlight bash %}
-$ sudo /usr/local/opensn0w/bin/opensn0w_cli -v -p /usr/local/opensn0w/bin/iPhone3,1_7.0_11AWhatever.plist
+$ sudo /usr/local/opensn0w/bin/opensn0w_cli -v -p /usr/local/opensn0w/bundles/iPhone3,1_7.0_11AWhatever.plist
 {% endhighlight %}
 
 Of course, modify the command line to fit your needs and make sure your device is in DFU mode.
