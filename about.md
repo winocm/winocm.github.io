@@ -19,6 +19,18 @@ I have experience with the following languages:
 * Objective-C
 * C/C++ 
 
+## Projects
+
+Here are at least some of them:
+
+* boot.efi, a booter for Darwin/ARM for ARM UEFI systems.
+* Porting the Darwin kernel to ARMv7/v8 architecture.
+* MachBoot, a threaded bootloader for Darwin.
+* GenericBooter, a shim bootloader for u-boot to start the Darwin kernel.
+* opensn0w, a generic utility for bootstrapping unsigned code on iPhone based platforms.
+
+Most of these projects are open-source and are available on my [GitHub](http://github.com/winocm) repositories.
+
 ## Contact
 
 I can be reached on IRC for the most part. Feel free to contact me.
