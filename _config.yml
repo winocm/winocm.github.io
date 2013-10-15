@@ -1,25 +1,50 @@
-title:            winocm blag.
-description:      I finally started one, that I hope will last.
-url:              # Site url.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+title:            winocmblag
+tagline:          Version 2.0!
+description:      Just another blog.
+#Comment out url when working locally to resolve base urls correctly
+#url: http://winocm.com
 
+# Owner/author information
+owner:
+  name:           winocm
+  bio:            "I do cool things."
+  email:          winocm@icloud.com
+  twitter:        winocm        
+  github:         winocm
+  # Plug in your disqus shortname!
+  
+
+# Links to include in top navigation
+# For external links add external: true
 links:
-  - name:         About
-    url:          /about
-  - name:         Blog
-    url:          /
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/winocm
-    external:     true
-  - name:         Twitter
-    url:          http://twitter.com/winocm
-    external:     true
-pygments:         true
+  - title: About
+    url: /about
+  - title: Github
+    url: https://github.com/winocm
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+pygments:    true
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:        pretty
-markdown:         rdiscount
-rdiscount:
-  extensions:     [smart]
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]

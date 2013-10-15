@@ -1,5 +1,7 @@
 ---
 layout: page
+title: About me.
+permalink: /about/index.html
 ---
 
 Hello.
