@@ -4,7 +4,7 @@ title: About me.
 permalink: /about/index.html
 ---
 
-Hello.
+Hello
 ======
 
 I'm winocm, a regular old software developer who loves to develop for embedded devices, especially ones
