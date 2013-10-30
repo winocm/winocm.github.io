@@ -56,6 +56,6 @@ that's not the case.
 I've been put down far too much by people who think minimum wage is a good thing. And by people who think that
 without education, you'll be living a minimum wage life.
 
-I highly must thank the entire community that exists. I wouldn't be doing what I currently am without them.
+I must thank the entire community that exists. I wouldn't be doing what I currently am without them.
 
 (Thank you Will.)
