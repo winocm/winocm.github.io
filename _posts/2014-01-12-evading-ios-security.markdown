@@ -76,3 +76,6 @@ __text:0000005C off_5C          DCD 0x9E415958          ; DATA XREF: __text:0000
 {% endhighlight %}
 
 Jailbreaking ruins security and integrity. Enough said. Have a good day. 
+
+(Oh, it also can be used by any user, including `mobile`. One can wonder if TaiG or such is using this as a
+back door...)
