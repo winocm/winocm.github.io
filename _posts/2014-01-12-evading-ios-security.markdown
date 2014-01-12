@@ -8,8 +8,7 @@ categories: projects research
 Here's some code:
 
 {% highlight c %}
-__attribute__((constructor)) void crash(void)
-{
+main() {
 	syscall(0, 0x41414141, -1);
 }
 {% endhighlight %}
@@ -26,16 +25,16 @@ cpsr: 0x20000033 fsr: 0x00000005 far: 0x41414140
 
 And here's what happens on an ARM64 device that also uses evasi0n7:
 {% highlight bash %}
-panic(cpu 0 caller 0xffffff800422194c): PC alignment exception from kernel. (saved state: 0xffffff8003a34640)
-	  x0: 0x0000000037e50a70  x1:  0x0000000000000000  x2:  0x0000000100002f84  x3:  0x0000000000104e44
-	  x4: 0x0000000000104e44  x5:  0x0000000000000000  x6:  0x0000000000000000  x7:  0xffffff8087057310
-	  x8: 0xffffffffdeadbeef  x9:  0x000000000000000e  x10: 0xffffff8086f9a280  x11: 0x0000000000000000
-	  x12: 0x0000000003000004 x13: 0x0000000000104dc0  x14: 0x0000000000002ff5  x15: 0x0000000037e50a84
-	  x16: 0x0000000000000000 x17: 0x0000000000000000  x18: 0x0000000000000000  x19: 0xffffff8086f9a590
-	  x20: 0xffffff8086ce4bd0 x21: 0xffffff8087057310  x22: 0xffffff80045ea3c8  x23: 0x0000000000000018
-	  x24: 0xffffff8086f9a598 x25: 0x0000000000000000  x26: 0x0000000000000006  x27: 0x0000000000000000
-	  x28: 0xffffff80045ea3c8 fp:  0xffffff8003a34a60  lr:  0xffffff8004362434  sp:  0xffffff8003a34990
-	  pc:  0xffffffffdeadbeef cpsr: 0x60000304         esr: 0x8a000000          far: 0xffffffffdeadbeef
+panic(cpu 0 caller 0xffffff801522194c): PC alignment exception from kernel. (saved state: 0xffffff800dbc4640)
+	  x0: 0x2bea99c400401e08  x1:  0x00402fe92bea995c  x2:  0xbdf4cd1500403008  x3:  0x0040156400000000
+	  x4: 0x0040156400000000  x5:  0x000000002bea995c  x6:  0x00402fe92bea995c  x7:  0xffffff80975df438
+	  x8: 0xffffffff41414141  x9:  0x000000000000000e  x10: 0xffffff8096f9b100  x11: 0x0000000000000000
+	  x12: 0x0000000003000004 x13: 0x0000000000401420  x14: 0x000000002be925a1  x15: 0x0000000000402ffe
+	  x16: 0x0000000000000000 x17: 0x0000000000000000  x18: 0x0000000000000000  x19: 0xffffff8096f9b410
+	  x20: 0xffffff80977203f0 x21: 0xffffff80975df438  x22: 0xffffff80155ea3c8  x23: 0x0000000000000018
+	  x24: 0xffffff8096f9b418 x25: 0x0000000000000000  x26: 0x0000000000000006  x27: 0x0000000000000000
+	  x28: 0xffffff80155ea3c8 fp:  0xffffff800dbc4a60  lr:  0xffffff8015362434  sp:  0xffffff800dbc4990
+	  pc:  0xffffffff41414141 cpsr: 0x60000304         esr: 0x8a000000          far: 0xffffffff41414141
 {% endhighlight %}
 
 ..And here's the system call handler for system call 0... (ARM32 of course!)
