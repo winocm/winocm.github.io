@@ -10,16 +10,7 @@ Here's some code:
 {% highlight c %}
 __attribute__((constructor)) void crash(void)
 {
-	/* Here's the C version. */
 	syscall(0, 0x41414141, -1);
-
-	/* And in ASM. */
-	__asm__ __volatile__("mov r0, #0\n"
-			"movw r1, #0x4141\n"
-			"movt r1, #0x4141\n"
-			"mov r2, #-1\n"
-			"mov r12, #0\n"
-			"swi #0x80\n");
 }
 {% endhighlight %}
 
