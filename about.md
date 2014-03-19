@@ -27,6 +27,7 @@ Here are at least some of them:
 
 * boot.efi, a booter for Darwin/ARM for ARM UEFI systems.
 * Porting the Darwin kernel to ARMv7/v8 architecture.
+* Porting TianoCore and other firmware/open-source bootloaders to proprietary ARM systems. (iPhone 4, HP TouchPad)
 * MachBoot, a threaded bootloader for Darwin.
 * GenericBooter, a shim bootloader for u-boot to start the Darwin kernel.
 * opensn0w, a generic utility for bootstrapping unsigned code on iPhone based platforms.
