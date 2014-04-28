@@ -42,3 +42,6 @@ I can be reached on IRC for the most part. Feel free to contact me.
 * `winocm` on Freenode.
 * `winocm AT icloud DOT com` works too.
 * `winocm AT jabber DOT ccc DOT de` works for XMPP/GoogleTalk/Jabber/whatever-it-is-nowadays.
+
+(Please do not email me for technical support, I will not respond. Especially if it's about printers. Raise a suppor 
+ticket with @nickdepetrillo and @thegrugq for that.)
