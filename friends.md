@@ -12,6 +12,7 @@ and their websites/Twitter profiles:
 * [0xabad1dea](http://0xabad1dea.github.io)
 * [Yuki](https://kivikakk.ee)
 * [Talen](http://press.arts-eclectic.com)
+* [Squiffy](http://twitter.com/SquiffyPwn)
 * [❤❤ ~protosphere-chan~ ❤❤](http://protosphere.me)
 * [gewt](http://gewt.net)
 * [angelXwind](http://twitter.com/angelxwind)
