@@ -19,6 +19,8 @@ owner:
 links:
   - title: About
     url: /about
+  - title: Friends
+    url: /friends
   - title: Github
     url: https://github.com/winocm
     external: true
