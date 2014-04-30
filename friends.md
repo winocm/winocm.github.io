@@ -23,5 +23,6 @@ and their websites/Twitter profiles:
 * [Daniel Tomlison](http://twitter.com/dantoml)
 * [Steven Troughton-Smith](http://twitter.com/stroughtonsmith)
 * [iH8sn0w](http://ih8sn0w.com)
+* [x56](http://twitter.com/0x56)
 * And too many more to list, lest this list become too long...
 
