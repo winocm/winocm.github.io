@@ -14,6 +14,14 @@ and their websites/Twitter profiles:
 * [Talen](http://press.arts-eclectic.com)
 * [❤❤ ~protosphere-chan~ ❤❤](http://protosphere.me)
 * [gewt](http://gewt.net)
-
-
+* [angelXwind](http://twitter.com/angelxwind)
+* [ws](http://twitter.com/ws)
+* [Ross Penman](http://twitter.com/penmanross)
+* [CodaFi](http://twitter.com/codafi_)
+* [Sam Marshall](http://samdmarshall.com)
+* [Gwynne Raskind](http://darkrainfall.org)
+* [Daniel Tomlison](http://twitter.com/dantoml)
+* [Steven Troughton-Smith](http://twitter.com/stroughtonsmith)
+* [iH8sn0w](http://ih8sn0w.com)
+* And too many more to list, lest this list become too long...
 
