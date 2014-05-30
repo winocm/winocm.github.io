@@ -126,6 +126,12 @@ LEXT(shellcode_end)
     nop
 {% endhighlight%}
 
+# Bruteforce
+
+On another note, the VA to PA registers in coprocessor `c7` can also be used to bruteforce the location of the kernel
+translation table base or ASLR base. Simply making a tight loop that involves going through the entire VA space and comparing 
+the translated result physical address with actual the physical address will give you what you need.
+
 # Afterlife
 
 That's pretty much it, by utilizing the power of CVE-2014-1320, the ARM architecture and also a simple kernel write-what-where
@@ -134,7 +140,7 @@ style vulnerability, one can own the iOS kernel and make a simple kernel exploit
 These techniques should work on any iOS version, as the kernel L1 page directory base is always located at that same static
 offset from the beginning of physical RAM. 
 
-(It is easy to even calcaulate without knowing the contents of IOPlatformArgs too...)
+(It is easy to even calculate without knowing the contents of IOPlatformArgs too...)
 
 The ARM architecture provides incredibly powerful, powerful components that make exploitation a lot easier. (If you know how
 they all work!) 
