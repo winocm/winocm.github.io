@@ -6,7 +6,7 @@ categories: xnu projects
 ---
 
 The XNU kernel is used widely on many Apple devices, ranging from the iMac, to the iPhone. It is a kernel based on Mach 
-4.3 but also uses a lot of BSD code. Contrary to Mach's original design, XNU is not a microkernel, but rather a very 
+3.0 but also uses a lot of BSD code. Contrary to Mach's original design, XNU is not a microkernel, but rather a very 
 large monolithic one. This article isn't really for debate against which kernel design is better, that's for somewhere 
 else.
 

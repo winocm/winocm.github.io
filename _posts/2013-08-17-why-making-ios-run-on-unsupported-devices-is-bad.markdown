@@ -11,7 +11,7 @@ to mess around with the internals of iOS at all (unless you have source code for
 do whatever you want).
 
 The XNU kernel is used widely on many Apple devices, ranging from the iMac, to the iPhone. It is a kernel based on Mach 
-4.3 but also uses a lot of BSD code. Contrary to Mach's original design, XNU is not a microkernel, but rather a very 
+3.0 but also uses a lot of BSD code. Contrary to Mach's original design, XNU is not a microkernel, but rather a very 
 large monolithic one. The userland consists of many other components such as `launchd`, `dyld`, `libSystem` and so on.
 Of course, the actual UI stuff such as `UIKit` and `SpringBoard` is still there too.
 
