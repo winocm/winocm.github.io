@@ -1,8 +1,8 @@
 title:            winocmblag
-tagline:          Version 2.0!
+tagline:          Version 2.1 alpha!
 description:      Just another blog.
 #Comment out url when working locally to resolve base urls correctly
-url: http://winocm.com
+url: http://winocm.moe
 
 # Owner/author information
 owner:
